@@ -51,5 +51,17 @@ Integraciones con otros sistemas
 Es una solución funcional, escalable y didáctica, ideal para aprender, implementar y adaptar procesos básicos de inventario y facturación en un entorno real.
 
 📸 Capturas del sistema
-<img width="1918" height="1198" alt="Vista del sistema 1" src="https://github.com/user-attachments/assets/ab08cf2a-7793-46a8-8853-69451ea6dc17" /> <img width="1918" height="1198" alt="Vista del sistema 2" src="https://github.com/user-attachments/assets/efb249ab-020d-4cf1-9fda-2bf2f28510a8" /> <img width="1918" height="1198" alt="Vista del sistema 3" src="https://github.com/user-attachments/assets/f0f5a7d9-2b04-41dc-a22f-38137da62dcb" /> <img width="1918" height="1198" alt="Vista del sistema 4" src="https://github.com/user-attachments/assets/0d4130df-0f9a-498b-bdd3-19317b4d4735" />
+
+
+Login
+
+<img width="1918" height="1198" alt="Vista del sistema 1" src="https://github.com/user-attachments/assets/ab08cf2a-7793-46a8-8853-69451ea6dc17" />
+
+index
+
+<img width="1918" height="1198" alt="Vista del sistema 2" src="https://github.com/user-attachments/assets/efb249ab-020d-4cf1-9fda-2bf2f28510a8" /> <img width="1918" height="1198" alt="Vista del sistema 3" src="https://github.com/user-attachments/assets/f0f5a7d9-2b04-41dc-a22f-38137da62dcb" /> 
+
+ER
+<img width="1918" height="1198" alt="Vista del sistema 4" src="https://github.com/user-attachments/assets/0d4130df-0f9a-498b-bdd3-19317b4d4735" />
+
 
