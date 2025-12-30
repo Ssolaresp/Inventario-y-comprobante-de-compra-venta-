@@ -1,0 +1,109 @@
+/* css/css_menu.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #e0e0e0;
+    color: #333;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #263238;
+    color: #fff;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+}
+
+.sidebar.collapsed {
+    width: 60px;
+}
+
+.sidebar .logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: 500;
+    background: #1e272c;
+    border-bottom: 1px solid #37474f;
+}
+
+.sidebar .logo i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .menu li a {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    color: #b0bec5;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.sidebar .menu li a i {
+    margin-right: 15px;
+    font-size: 1.1em;
+}
+
+.sidebar .menu li a:hover {
+    background: #37474f;
+    color: #fff;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 999;
+    background: #263238;
+    color: #fff;
+    border: none;
+    font-size: 1.3em;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar.collapsed ~ .main-content {
+    margin-left: 60px;
+}
+
+.logout-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #263238;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid #263238;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.logout-link:hover {
+    background: #263238;
+    color: #fff;
+}
